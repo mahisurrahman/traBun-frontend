@@ -13,6 +13,7 @@ import { GrNotes } from "react-icons/gr";
 import { RiPresentationLine } from "react-icons/ri";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import { IoSettingsOutline } from "react-icons/io5";
+import logo from "../../../../public/traideas.png";
 
 function SidebarMenu() {
   const links = (
@@ -156,7 +157,7 @@ function SidebarMenu() {
   const linksThree = (
     <>
       <NavLink
-        to="/kanbun"
+        to="/trabun"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
@@ -167,8 +168,9 @@ function SidebarMenu() {
         style={{ display: "block" }}
       >
         <span className="flex items-center gap-x-4 text-sm">
-          <BsKanban className="text-lg" />
-          Kanban
+          {/* <BsKanban className="text-lg" /> */}
+          <img src={logo} className="w-[1.2vw]" alt="TraIdeas Logo" />
+          TraBun
         </span>
       </NavLink>
       <NavLink

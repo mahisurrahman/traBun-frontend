@@ -53,7 +53,7 @@ const router = createBrowserRouter([
         element: <AssignedTasks />,
       },
       {
-        path: "/kanban",
+        path: "/trabun",
         element: <Kanban />,
       },
       {
