@@ -10,12 +10,6 @@ export default {
         pacifico: ['Pacifico', 'cursive'], 
         poppins: ['Poppins', 'sans-serif'],
       },
-      colors: {
-        'primary-black': '#0C0C0C',
-        'secondary-brown': '#481E14',
-        'third-light-orange': '#9B3922',
-        'fourth-dark-orange': '#9B3922',
-      },
     },
   },
   plugins: [],
