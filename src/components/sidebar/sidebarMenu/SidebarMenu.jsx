@@ -29,8 +29,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <MdDashboard className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <MdDashboard className="text-xs" />
           Dashboard
         </span>
       </NavLink>
@@ -45,8 +45,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <GrTasks className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <GrTasks className="text-xs" />
           My Tasks
         </span>
       </NavLink>
@@ -61,8 +61,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <BsCalendar2DateFill className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <BsCalendar2DateFill className="text-xs" />
           Calender
         </span>
       </NavLink>
@@ -77,8 +77,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <GoGraph className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <GoGraph className="text-xs" />
           Statistics
         </span>
       </NavLink>
@@ -93,8 +93,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <FaFolderOpen className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <FaFolderOpen className="text-xs" />
           Documents
         </span>
       </NavLink>
@@ -114,8 +114,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <IoMdPersonAdd className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <IoMdPersonAdd className="text-xs" />
           Add People
         </span>
       </NavLink>
@@ -130,8 +130,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <MdOutlineAssignmentTurnedIn className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <MdOutlineAssignmentTurnedIn className="text-xs" />
           Assigned Tasks
         </span>
       </NavLink>
@@ -146,8 +146,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <IoPersonRemove className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <IoPersonRemove className="text-xs" />
           Remove People
         </span>
       </NavLink>
@@ -167,8 +167,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          {/* <BsKanban className="text-sm" /> */}
+        <span className="flex items-center gap-x-2 text-xs">
+          {/* <BsKanban className="text-xs" /> */}
           <img src={logo} className="w-[1.2vw]" alt="TraIdeas Logo" />
           TraBun
         </span>
@@ -184,8 +184,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <GrNotes className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <GrNotes className="text-xs" />
           Notes
         </span>
       </NavLink>
@@ -200,8 +200,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <RiPresentationLine className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <RiPresentationLine className="text-xs" />
           Attendance
         </span>
       </NavLink>
@@ -216,8 +216,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <MdOutlineAttachMoney className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <MdOutlineAttachMoney className="text-xs" />
           Salary Clearance
         </span>
       </NavLink>
@@ -237,8 +237,8 @@ function SidebarMenu() {
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-2 text-sm">
-          <IoSettingsOutline className="text-sm" />
+        <span className="flex items-center gap-x-2 text-xs">
+          <IoSettingsOutline className="text-xs" />
           Settings
         </span>
       </NavLink>
