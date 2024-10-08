@@ -23,6 +23,9 @@ function Dashboard() {
           <MonthlyProgressCard/>
         </div>
       </div>
+      <div className="mt-[5vh] grid grid-cols-12">
+
+      </div>
     </div>
   );
 }
