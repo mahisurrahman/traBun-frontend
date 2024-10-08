@@ -28,7 +28,7 @@ function HomeLayout() {
         <div
           className="h-full w-full rounded-3xl px-5 py-5"
           style={{
-            backgroundColor: "rgba(255, 255, 255, 0.05)",
+            backgroundColor: "rgba(255, 255, 255, 0.20)",
             backdropFilter: "blur(10px)",
             webkitBackdropFilter: "blur(10px)",
             boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",

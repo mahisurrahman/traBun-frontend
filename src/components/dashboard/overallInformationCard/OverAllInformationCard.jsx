@@ -8,13 +8,13 @@ import TotalProgressTasks from "./totalProgressTasks/TotalProgressTasks";
 
 function OverAllInformationCard() {
   return (
-    <div className="bg-primary w-full h-full rounded-3xl px-[2vw] py-[3vh] text-white">
+    <div className="bg-primary w-full h-full rounded-3xl px-[2vw] py-[3vh] text-white shadow-lg">
       <OverAllInformationTitle />
-      <div className="mt-[3vh] flex items-center justify-between">
+      <div className="px-[3vw] mt-[3vh] flex items-center justify-between">
         <TotalTasksDone />
         <TotalTasksStopped/>
       </div>
-      <div className="mt-[3vh] px-[1vw] flex items-center justify-center gap-x-4">
+      <div className="mt-[3vh] px-[2vw] flex items-center justify-center gap-x-4">
         <TotalTasks/>
         <TotalUnassignedTasks/>
         <TotalProgressTasks/>

@@ -2,6 +2,8 @@ import React from "react";
 import DashTitle from "../../components/dashboard/dashTitle/DashTitle";
 import DashNotifyIcons from "../../components/dashboard/dashNotifyIcons/DashNotifyIcons";
 import OverAllInformationCard from "../../components/dashboard/overallInformationCard/OverAllInformationCard";
+import WeeklyProgressCard from "../../components/dashboard/weeklyProgressCard/WeeklyProgressCard";
+import MonthlyProgressCard from "../../components/dashboard/monthlyProgressCard/MonthlyProgressCard";
 
 function Dashboard() {
   return (
@@ -10,12 +12,16 @@ function Dashboard() {
         <DashTitle />
         <DashNotifyIcons/>
       </div>
-      <div className="mt-[2vh] grid grid-cols-12 gap-x-3 h-[35vh]">
-        <div className="col-span-4">
+      <div className="mt-[5vh] grid grid-cols-12 gap-x-3 h-[40vh]">
+        <div className="col-span-5">
           <OverAllInformationCard/>
         </div>
-        <div className="col-span-4"></div>
-        <div className="col-span-4"></div>
+        <div className="col-span-4">
+          <WeeklyProgressCard/>
+        </div>
+        <div className="col-span-3">
+          <MonthlyProgressCard/>
+        </div>
       </div>
     </div>
   );
