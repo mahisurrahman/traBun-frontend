@@ -14,7 +14,7 @@ function OverAllInformationCard() {
         <TotalTasksDone />
         <TotalTasksStopped/>
       </div>
-      <div className="mt-[3vh] px-[2vw] flex items-center justify-center gap-x-4">
+      <div className="mt-[4vh] px-[2vw] flex items-center justify-center gap-x-4">
         <TotalTasks/>
         <TotalUnassignedTasks/>
         <TotalProgressTasks/>
