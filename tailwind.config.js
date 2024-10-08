@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        "primary": "#262626",
+      },
       fontFamily: {
         pacifico: ['Pacifico', 'cursive'], 
         poppins: ['Poppins', 'sans-serif'],

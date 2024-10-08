@@ -24,13 +24,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <MdDashboard className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <MdDashboard className="text-sm" />
           Dashboard
         </span>
       </NavLink>
@@ -40,13 +40,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <GrTasks className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <GrTasks className="text-sm" />
           My Tasks
         </span>
       </NavLink>
@@ -56,13 +56,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <BsCalendar2DateFill className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <BsCalendar2DateFill className="text-sm" />
           Calender
         </span>
       </NavLink>
@@ -72,13 +72,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <GoGraph className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <GoGraph className="text-sm" />
           Statistics
         </span>
       </NavLink>
@@ -88,13 +88,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <FaFolderOpen className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <FaFolderOpen className="text-sm" />
           Documents
         </span>
       </NavLink>
@@ -109,13 +109,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <IoMdPersonAdd className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <IoMdPersonAdd className="text-sm" />
           Add People
         </span>
       </NavLink>
@@ -125,13 +125,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <MdOutlineAssignmentTurnedIn className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <MdOutlineAssignmentTurnedIn className="text-sm" />
           Assigned Tasks
         </span>
       </NavLink>
@@ -141,13 +141,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <IoPersonRemove className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <IoPersonRemove className="text-sm" />
           Remove People
         </span>
       </NavLink>
@@ -162,13 +162,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          {/* <BsKanban className="text-lg" /> */}
+        <span className="flex items-center gap-x-2 text-sm">
+          {/* <BsKanban className="text-sm" /> */}
           <img src={logo} className="w-[1.2vw]" alt="TraIdeas Logo" />
           TraBun
         </span>
@@ -179,13 +179,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <GrNotes className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <GrNotes className="text-sm" />
           Notes
         </span>
       </NavLink>
@@ -195,13 +195,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <RiPresentationLine className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <RiPresentationLine className="text-sm" />
           Attendance
         </span>
       </NavLink>
@@ -211,13 +211,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <MdOutlineAttachMoney className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <MdOutlineAttachMoney className="text-sm" />
           Salary Clearance
         </span>
       </NavLink>
@@ -232,13 +232,13 @@ function SidebarMenu() {
           isPending
             ? "pending"
             : isActive
-            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-gray-900 text-white py-[1vh] px-[1vw] rounded-3xl"
-            : "mb-[0.25vh] flex items-center w-full bg-white text-black py-[1vh] px-[1vw] hover:font-semibold"
+            ? "mb-[0.25vh] duration-700 flex items-center w-full bg-primary text-white py-[1vh] px-[1vw] rounded-3xl"
+            : "mb-[0.25vh] flex items-center w-full bg-white text-primary py-[1vh] px-[1vw] hover:font-semibold"
         }
         style={{ display: "block" }}
       >
-        <span className="flex items-center gap-x-4 text-sm">
-          <IoSettingsOutline className="text-lg" />
+        <span className="flex items-center gap-x-2 text-sm">
+          <IoSettingsOutline className="text-sm" />
           Settings
         </span>
       </NavLink>
@@ -249,13 +249,13 @@ function SidebarMenu() {
     <div className="w-full h-[70vh]">
       <div>{links}</div>
       <div className="mt-[4vh]">
-        <p className="uppercase mb-[0.25vh] font-semibold w-full py-[1.25vh] px-[1vw]">
+        <p className="uppercase mb-[0.25vh] font-semibold w-full py-[1.25vh] px-[0.25vw]">
           INTERACTIONS
         </p>
         <div className="px-[0.25vw]">{linksTwo}</div>
       </div>
       <div className="mt-[4vh]">
-        <p className="uppercase mb-[0.25vh] font-semibold w-full py-[1.25vh] px-[1vw]">
+        <p className="uppercase mb-[0.25vh] font-semibold w-full py-[1.25vh] px-[0.25vw]">
           Tools
         </p>
         <div className="px-[0.25vw]">{linksThree}</div>
