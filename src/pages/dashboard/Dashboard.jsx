@@ -12,7 +12,7 @@ function Dashboard() {
         <DashTitle />
         <DashNotifyIcons/>
       </div>
-      <div className="mt-[5vh] grid grid-cols-12 gap-x-3 h-[40vh]">
+      <div className="mt-[5vh] grid grid-cols-12 gap-x-6 h-[40vh]">
         <div className="col-span-5">
           <OverAllInformationCard/>
         </div>

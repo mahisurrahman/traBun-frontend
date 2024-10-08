@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa6";
 
 function MonthlyReportDownload() {
   return (
-    <div className="px-[0.5vw] mt-[2vh] flex items-center justify-between">
+    <div className="mt-[2vh] flex items-center justify-between">
       <div className="w-8 h-8 rounded-full bg-primary boreder-2 border-white text-white flex items-center justify-center text-xl duration-200 hover:duration-200 hover:bg-white hover:text-primary hover:border-2 hover:border-primary">
         <IoShareSocialSharp />
       </div>
